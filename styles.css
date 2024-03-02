@@ -1,0 +1,18 @@
+
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+.right{
+	float: right;
+	padding-left: 1.5em;
+}
