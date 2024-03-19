@@ -1,11 +1,13 @@
 main{
     padding-left: 1.5em;
     padding-right: 1.5em;
+    width: 1400px;
 }
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: bisque;
+    width: 1400px;
 }
 
 header{
@@ -56,4 +58,24 @@ nav a{
 nav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+#contacts {
+    text-align: center;
+}
+
+#list-contacts {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+}
+
+#list-contacts li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#list-contacts li:last-child {
+    margin-right: 0;
 }
