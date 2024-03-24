@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 main{
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -78,4 +81,17 @@ nav a:hover {
 
 #list-contacts li:last-child {
     margin-right: 0;
+}
+
+#scroll-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+#scroll-button button{
+    width: 70px;
+    height: 30px;
+    border-radius: 12px;
 }
