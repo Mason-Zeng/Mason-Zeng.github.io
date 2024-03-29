@@ -4,7 +4,9 @@ html{
 main{
     padding-left: 1.5em;
     padding-right: 1.5em;
-    min-width: 1400px;
+    margin: auto;
+    width: 90%;
+    max-width: 1600px;
 }
 
 body{
@@ -21,18 +23,21 @@ header{
 	border-bottom: 2px solid #ffc79d;
 }
 
+article{
+    overflow:auto;
+}
+
 .right{
     float: right;
 	padding-left: 1.5em;
     padding-right: 1.5em;
-    padding-top: 1em;
+    
 }
 
-.right-home{
-    float: right;
+.left{
+    float: left;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    padding-top:2.5em;
 }
 
 h1{
@@ -40,7 +45,7 @@ h1{
 }
 
 h2{
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: #ffc79d;
     padding-right: 1em;
     padding-left: 1em;
